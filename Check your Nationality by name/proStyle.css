@@ -1,0 +1,103 @@
+body {
+    /* background-color: skyblue;
+    background-image:url("worldmap.png")
+    /* /* background-size: cover; */
+    background: url("worldmap.png") no-repeat center/cover;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0; 
+    
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    color: black;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+p {
+    font-size: 20px;
+}
+
+#countId {
+    text-align: left;
+    margin-left: 150px;
+}
+
+#nameResult, #countAgeId, #ageResult {
+    text-align: center;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+ul.hidden {
+    text-align: center;
+    list-style: none;
+    padding: 0;
+}
+
+ul {
+    margin-left: 150px;
+    list-style: none;
+    padding: 0;
+}
+
+/* Additional Styles for Improved Appearance */
+.container {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+}
+
+nav {
+    background-color: #555;
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #444;
+}
+
+section {
+    padding: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}

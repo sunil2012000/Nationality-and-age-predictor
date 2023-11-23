@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nationaliity and Age</title>
+    <script src="projavascript.js" ></script>
+    <link rel="stylesheet" href="proStyle.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <div class="container1">
+        <h1>Nationality and Age</h1>
+        <label for="nameId">Enter a name</label>
+        <input type="text" name="nationAge" id="nameId">
+        <button onclick="fetchData()">Get Nationality</button>
+    </div>
+
+    <span id="resultContainer" class="hidden">
+        <h2>Result</h2>
+
+        <p id="nameResult"></p>
+        <p id="countId"></p>
+        <ul id="countryList"></ul>
+
+    </span>
+
+    <span id="resultcontainerAge" class="hidden2">
+        <span>
+            <p id="countAgeId"></p>
+        </span>
+        <span>
+            <p id="ageResult"></p>
+
+        </span>
+
+    </span>
+</body>
+
+</html>
